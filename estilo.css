@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*O código acima serve para eliminar
+os espaços naturais do HTML*/
+body {
+    width: 960px;
+    margin: 0px auto
+}
+
+header {
+    text-align: center;
+    font-size: 14px;
+    padding: 14px 0;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}
+
+.quebra {
+    clear: both;
+}
+
+#foto{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+h2{
+    font-size: px;
+    text-align: center; 
+}
+
+nav{
+    margin: 4px 0;
+    border-top: solid 3px #666666;
+    border-bottom: solid 3px #666666;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    line-height: 30px;
+    font-size: 18px;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    margin-top: 18px;
+    text-align: left;
+}
+
+p{
+    margin: 14px 0;
+    text-align: left;
+}
+
+
+.job{
+    width: 700px;
+    height: 200px;
+    background-color: #bcbcbc;
+    margin: 4px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+/*A classe quebra foi criada para encerrar o efeito do 
+float sobre o footer*/
+
+/*mobile, as regras abaixo são para telas grandes*/
+@media (min-width: 1024px) {
+    aside {
+        width: 20%;
+        float: left;
+        padding: 4px;
+        text-align: right;
+    }
+
+    main {
+        width: 75%;
+        float: right;
+        padding: 4px;
+    }
+}
